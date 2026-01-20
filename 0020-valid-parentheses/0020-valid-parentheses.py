@@ -1,7 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        openBrackets = ['(', '[', '{']
-        closedBrackets = [')', ']', '}']
+        openBrackets = ('(', '[', '{')
+        closedBrackets = (')', ']', '}')
         dict = { '(': ')', '[': ']', '{': '}' }
         stack = []
         for char in s:
