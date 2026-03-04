@@ -11,6 +11,4 @@ class Solution:
             i = rand7()
             j = rand7()
             if (i - 1) * 7 + j <= 40:
-                return ((i - 1) * 7 + j) % 10 + 1
-
-        
+                return ((i - 1) * 7 + j) % 10 + 1       
